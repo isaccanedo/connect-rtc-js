@@ -1,0 +1,25 @@
+{
+    "rules": {
+        'no-console': 'off'
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "webrtc"
+    ],
+    "globals": {
+        "module": true,
+        "require": true,
+        "process": true,
+        "window": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    }
+}
